@@ -1,0 +1,37 @@
+Explicacion de conceptos basicos de programacion
+
+1.-Variables:
+  Las variables son cosas que pueden tener un valor, por ejemplo:
+  la bateria de un celular puede ser una variable por que esta bateria puede tener el 0% de carga al 100% de carga entonces podemos decir que la bateria es la variable y la cantidad de carga que tiene es el valor de la variable.
+
+2.-Strings:
+  Las strings son cadenas, para la computacion cada palabra escrita en el monitor es una cadena, entonces las palabras que se usan para mandar mensajes son cadenas y las cadenas pueden ser de una a muchas letras.
+  Cada letra se le llama "caracter".
+  Entonces las cadenas estan conformadas por caracteres y pueden ser de uno solo o de muchos caracteres.
+
+3.-Funciones:
+  Las funciones son "fabricas de productos" por ejemplo si se quiere fabricar un pastel entonces necesitamos ingredientes, mezclaros de manera correcta y despues de esto tendremos el pastel listo para comer.
+  Lo que hacen las funciones es mezclar de manera correcta todos los ingredientes que ingresemos en esta "fabrica" y al final nos pueda dar un resultado que deseamos como por ejemplo un pastel delicioso.
+
+4.-Declaraciones if
+  Se le llama asi a la palabra "if", esta palabra nos ayuda a decirle a la computadora que decision debe tomar cuando hay dos o mas caminos
+  por ejemplo si queremos cocinar un pastel primero debemos revisar que ingredientes tenemos.
+  En caso de tener manzanas, podemos hacer pastel de manzanas
+  pero si en lugar de tener manzanas tenemos fresas, entonces podemos cocinar un pastel de fresas.
+  La decision de hacer un pastel de fresa o de manzana la tomaremos con una palabra if por ejemplo:
+  if --> tenemos manzanas --> entonces cocinar pastel de manzanas
+  if --> tenemos fresas --> entonces cocinar pastel de fresas
+
+  5.-Valores boleanos
+    Los valores boleanos no son mas que variables que pueden tomar solo dos valores. Por ejemplo:
+    una television puede estar apagada o encendida
+    un auto puede estar apagado o encendido
+    Los valores de cada uno de estos objetos son "on" y "off"
+    asi que siempre que se hable de valores boleanos podemos pensar que solo se va a tener dos valores, y se pueden identificar en el mundo real como algunos de estos siguientes:
+    Apagado, encendido
+    on, off
+    falso, verdadero
+    si, no
+  
+  
+
