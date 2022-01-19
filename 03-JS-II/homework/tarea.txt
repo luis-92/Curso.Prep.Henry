@@ -1,0 +1,40 @@
+Explicacion de conceptos a un niño de 12 años:
+
+* `for`
+
+For es una palabra usada en programación para decirle a la computadora que repita muchas veces una instrucción, por ejemplo si te metes a youtube y quieres ver un video mas de una vez, entonces un "for" podria repetir el video tantas veces como tu quieras.
+A cada repeticion de video se le llama iteracion y cada una de estas repeticiones pertenece a un bucle por ejemplo si el video se repite 10 veces, entones decimos que el bucle tiene 10 iteraciones.
+
+* `&&`, `||`, `!`
+Operadores logicos 
+En programacion tambien existen unos simbolos especiales llamados "operadores logicos", estos operadores ayudan a tomar decisiones en caso de tener que comparar dos cosas al mismo tiempo.
+
+Ejemplos:
+
+Operador AND && (conjuncion):
+Cuando se usa este operador lo que hacemos es comparar dos situaciones o dos cosas y si las dos cosas cumplen con algo que esperamos entonces se toma una decision.
+
+  Por ejemplo:
+  si yo quiero jugar futbol entonces deberian cumplirse dos condiciones:
+
+  Primer condicion: tener un balon para jugar
+  Segunda condicion: tener un amigo para jugar con el balon 
+
+  Entonces podriamos escribir algo asi
+  Para jugar futbol se necesita : Tener un balón para jugar && tener un amigo para jugar futbol con el balón
+
+Operador OR || (disyunción):
+Cuando se usa este comparador para tomar una decision entonces evaluamos dos condiciones si una de las condiciones nos gusta entonces procedemos al siguiente paso.
+  Por ejemplo:
+  Caso 1:
+  Vamos a un restaurante y quiero tomar agua
+  El mesero me dice que tiene agua fria o al tiempo
+  a nosotros no nos importa si el agua esta fria o no simplemente la queremos tomar
+  Entonces usando este operador en nuestro caso antes mencionado se dice que:
+  Quiero tomar agua fria || al tiempo;
+
+Operador not (opuesto):
+Este operador se usa cuando queremos obtener una negación de algun caso verdadero o falso
+  Por ejemplo:
+  Cuando nosotros estamos usando el celular entonces la pantalla esta desbloqueada esto significa que esta en "Prendido", pero tambien puede estar "Apagado" cuando nosotros sacamos el celular de la bolsa la pantalla esta apagada y para prenderla tenemos que darle click al boton de desbloquear.
+  Entonces el celular pasa de estar "Apagado" --> a -->"Encendido" lo que hace el telefono es cambiar entre dos valores Encendido = Verdadero y Apgado = Falso, cada que prendemos o apagamos el celular damos la indicacion de cambiar de valor de verdadero a falso o de falso a verdadero.
