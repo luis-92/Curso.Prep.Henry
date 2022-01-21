@@ -1,0 +1,9 @@
+Explicacion de arrays:
+
+Para la computadora un arra ó arreglo son varios elementos dentro de una misma colección, por ejemplo si nosotros necesitamos guardar el nombre de las materias que tomamos en un año escolar entonces tendriamos que crear un arreglo llamado "materias" y dentro de este arreglo agregar todas las materias que estamos cursando, en caso de tener 6 materias, el arreglo tendria 6 elementos dentro del arreglo "materias".
+En codigo se vería algo asi:
+
+const materias = [Español, Fisica, Matematicas, Quimica, Historia, Etica]
+
+El arreglo se llama "materias", recordemos que cada arreglo siempre se comienza  contar desde 0
+en este caso se dice que el arreglo tiene una longitud de 5 pero con 6 elementos 
