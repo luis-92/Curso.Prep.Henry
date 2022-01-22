@@ -1,0 +1,43 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+  * Propiedades
+	* Métodos
+    Losobjetos en programacion estan hechos como un objeto en la vida real
+    
+    Por ejemplo un automovil.
+    Cada objeto tiene caracteristicas que lo hacen unico aunque puede parecerse a muchos otros, siguiendo el ejemplo del automovil se pueden dar 
+    estas caracteristicas a estas caracteristicas se les llama propiedades:
+
+    -Tiene numero de serie
+    -4 llantas
+    -Color de carrocería
+    -Volante
+    -Faros
+
+    Para nosotros en el mundo fisico es muy facil identificar un automovil ya que al verlo podemos identificarlo, pero para la computadora no es tan facil, para eso nosotros tenemos que escribir en codigo todas las caracteristicas que tiene un automovil para que cuando escribamos la palabra "automovil"  rapidamente la computadora entienda que nos referimos a este objeto de cuatro llantas volante y que puede acelerar o frenar.
+
+    Como ya dijimos un objeto tiene caracteristicas que lo hacen unico pero ese mismo objeto hablando del automovil, tambien tiene funciones a estas funciones le llamamos metodos y pueden todas las funciones que hace un auto normal.
+    Por ejemplo un automovil puede:
+    -acelerar
+    -Frenar
+    -Encender las luces
+    -Avisar si un cinturon de seguridad no esta puesto 
+
+    Como ya mencionamos para nosotros en el mundo fisico es muy facil ver un automovil y tambien usarlo, por que sabemos que para manejar se necesitar mover el volante y los pedales podemos prender y apagar las luces y todo lo demas que se puede hacer con un auto, pero recordemos que esto es invisible para la computadora, por eso mismo siempre tenemos que indicarle como es que se ve un objeto (propiedades) y que funciones (metodos) tiene ese obbjeto.
+    
+	* Bucle `for…in`
+    Este bucle en especial se utiliza en los objetos para recorrer todas las propiedades que tiene cualquer obejto, de esta manera si le pedimos a la computadora que nos haga una lista de las propiedades que tiene un objeto, por ejemplo el automovil entonces la computadora va a recorrer cada una de las propiedades del automovil y las mostrara en pantalla una por una hasta el final
+
+
+	* Notación de puntos vs notación de corchetes
+
+    Con la notiacion de puntos podemos llamar a la propiedad del objeto (clave) para poder consultar el valor de esa propiedad por ejemplo
+    objeto.propiedad -> esto nos ayudará a traer el valor de la propiedad.
+    Siguiendo con el ejemplo del auto seria algo asi
+    Automovil.color -> en este caso nos daria el color del automovil
+    
+    Con la notacion de corchetes podemos hacer lo mismo pero en este caso tendriamos que usar una cadena dentro del corchete para referirnos a la propiedad del objeto.
+    Por ejemplo:
+    Automovil["color"] --> en este caso nos mostrará el color del Automovil
+
