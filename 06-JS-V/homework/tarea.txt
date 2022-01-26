@@ -1,0 +1,39 @@
+1. Explicación de conceptos:
+
+  * `prototype`:
+  Cuando creamos un objeto, de manera automatica se crea un prototipo de ese objeto que contiene todas sus propiedades y funciones 
+
+  Cuando hacemos herencia de un objeto a otro en javascript la herencia no se hace directamente de un objeto a otro, sino del prototipo del objeto principal hacia el objeto secundario, podriamos ver que los objetos en si no son utilizados para heredar sus propiedades, sino que el mecanisno de javascript es generar un prototipo nuevo por cada objeto generado y desde este poder hacer la herencia, esta es la principal diferencia entre el mecanismo de herencia de javascript contra otros lenguajes como pueden ser Java os C#
+
+  Por ejempo
+
+  *Se crea 1er objeto:
+
+  1er objeto hereda del prototipo madre(generado por el motor de javascript) 
+
+  Entonces se crean : 1er objeto y prototipo de 1er objeto
+
+  *Se crea 2do objeto:
+
+  2do objeto hereda del prototipo del primero (no hereda directamente las propiedades del objeto se va sobre el prototipo), y a su vez del prototipo madre tambien con sus funciones y propiedades.
+
+  y si creamos un objeto que herede del 2do objeto creado entonces tendremos la cadena de prototipos, comenzando del 3ero hasta el primero a esto se le llama delegacion ó envío dinámico
+
+
+
+* _Constructors_ (de Clases)
+
+  El metodo o funcion constructor, es un metodo usado para inicializar un objeto una vez que es creado, por ejemplo si se quiere crear un objeto llamado "auto" y quieres que todos los autos al momento de crearse tengan una marca definido desde nuevo entonces en la clase auto se agrega un constructor que pida el parametro "marca"
+
+  por ejemplo:
+
+  class Car {
+  constructor(brand) {  // Constructor
+    this.carname = brand;
+  }
+}
+
+mycar = new Car("Ford"); //Ford es la marca con la que este objeto se inicializará, se podria decir que es mandatorio que este campo sea escrito con algun valor de marca
+
+
+
